@@ -1,2 +1,2 @@
-# Novice_Dev
-All that I can make
+# Wallet maintained by smart contract
+I tried to make a wallet using smart contracts. Wrote it in Solidity. First of all give your address while deploying. The contract will keep this address as the owner address. Anyone can access deposit function (if you want to pay the owner money). However checking balance and withdrawing can only be done by owner. A separate pay function is implemented if you want to empty you wallet in a specific address.
