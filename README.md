@@ -1,2 +1,3 @@
-# Wallet maintained by smart contract
-I tried to make a wallet using smart contracts. Wrote it in Solidity. First of all give your address while deploying. The contract will keep this address as the owner address. Anyone can access deposit function (if you want to pay the owner money). However checking balance and withdrawing can only be done by owner. A separate pay function is implemented if you want to empty you wallet in a specific address.
+# A community market maintained by smart contract
+I tried to implement a market using smart contracts. Wrote it in Solidity. All users interested in participating in this marketplace has to register themselves as either as a customer or a shopkeeper. All the functions are self explainatory. Customers would be paid tokens as an agreement by a specific shopkeeper. Token payment part is not yet implemented................
+So, I hope you all to wait for a few days more.
