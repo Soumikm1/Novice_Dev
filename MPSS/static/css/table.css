@@ -1,0 +1,40 @@
+.item-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .item-table td, .item-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .item-table th {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f4b56e;
+    color: rgb(2, 0, 0);
+    font-weight: bold;
+  }
+  
+  .item-table tr:nth-child(even) {
+    background-color: #98e8ec;
+  }
+  
+  /* Add space between columns */
+  .item-table th:not(:last-child),
+  .item-table td:not(:last-child) {
+    padding-right: 20px;
+  }
+  
+  /* Add vertical grid lines */
+  .item-table th,
+  .item-table td {
+    border-right: 1px solid #ddd;
+  }
+  
+  .item-table th:last-child,
+  .item-table td:last-child {
+    border-right: none;
+  }
+  
